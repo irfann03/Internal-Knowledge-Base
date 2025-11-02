@@ -22,3 +22,124 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# ==========================================
+# Maven / Gradle
+# ==========================================
+target/
+build/
+out/
+!src/main/**/target/
+!src/test/**/target/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# IDE & Editor Specific
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ==========================================
+# Environment & Config Files
+# ==========================================
+# Local environment variables
+.env
+.env.local
+application-local.properties
+application-local.yml
+
+# Security keys or tokens
+*.pem
+*.key
+*.crt
+secret.*
+config/secrets.yml
+
+# ==========================================
+# Database & Storage
+# ==========================================
+# Local MySQL data or dumps
+*.sql
+*.db
+*.sqlite
+
+# Uploaded files directory (used by your app)
+uploads/
+storage/
+files/
+data/
+
+# Vector database (Chroma local folder)
+chroma/
+chroma_store/
+vector_store/
+
+# ==========================================
+# Logs / Temp Files
+# ==========================================
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# Docker
+# ==========================================
+# Ignore Docker build artifacts
+*.pid
+*.seed
+*.pid.lock
+
+# Docker local volumes and files
+docker-compose.override.yml
+.docker/
+docker/data/
+
+# ==========================================
+# Other
+# ==========================================
+# Node modules (if UI or JS part is added later)
+node_modules/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+
+# Generated reports
+report/
+coverage/
+jacoco-report/
