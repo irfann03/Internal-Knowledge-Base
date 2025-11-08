@@ -1,5 +1,8 @@
 package com.example.demo.Entity;
 
-public class Admin {
+import jakarta.persistence.*;
 
+public class Admin {
+	@Id
+	private Integer adminId;
 }
